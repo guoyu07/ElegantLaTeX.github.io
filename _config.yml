@@ -1,0 +1,122 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: ElegantLaTeX
+subtitle:
+description: The ElegantLaTeX Project.
+author: The ElegantLaTeX Team
+language: zh-Hans
+timezone: Asia/Shanghai
+email: elegantlatex@gmail.com
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://ElegantLaTeX.org
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY [年] MM [月] DD [日]
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 7
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next
+
+deploy:
+  type: git
+  repository:
+    coding: git@git.coding.net:liamhuang/ElegantLaTeX.git,coding-pages
+
+server:
+  ip: 0.0.0.0
+  port: 1310
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+rss:
+
+sitemap:
+    path: sitemap.xml
+
+# ----- ----- ----- -----
+#       NexT 主题配置
+# ----- ----- ----- -----
+# 时间
+since: 2013
+# 友情链接
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+    Liam Huang: https://liam0205.me
+# 侧边栏头像
+avatar: /uploads/site/logo.png
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+# 多说
+# duoshuo_shortname: #cnliam
+# 多说分享服务
+# duoshuo_share: true
+# 多说热评
+# duoshuo_hotartical: #true
+# 站内搜索
+# swiftype_key: #SyJFyKgqNDZyzr7m-z8U
+# Google 站长工具验证，请选择 `HTML Meta` 验证方式
+# See: https://www.google.com/webmasters/
+# google_site_verification: #TYuJQFuiVqfbFfJAkHfXigSDRIMibztxXxgl_iAaQhA
+# Google 分析 ID
+# google_analytics: #UA-44836433-1
+# 百度分析
+# baidu_analytics: #3aa2c17b091137ea579f5618a1e5731a
+# 腾讯分析
+# tencent_analytics: #45037302

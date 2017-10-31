@@ -1,0 +1,10 @@
+cd .deploy_git
+git pull -f
+cd -
+
+hexo g
+hexo d
+git add .
+git commit -m "[site] Site updated: $(date +%Y-%m-%d) $(date +%H:%M:%S)"
+git push origin source
+git push github source

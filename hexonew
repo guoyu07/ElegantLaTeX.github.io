@@ -1,0 +1,6 @@
+#!/bin/bash
+
+hexo new post "$1" | tr -s " " | cut -f3 -d' ' | pbcopy
+
+pbpaste
+

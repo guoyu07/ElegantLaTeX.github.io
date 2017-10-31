@@ -1,0 +1,7 @@
+[submodule "source/uploads/need-more-share2"]
+	path = source/uploads/need-more-share2
+	url = git@github.com:revir/need-more-share2.git
+[submodule ".deploy_git"]
+	path = .deploy_git
+	url = git@git.coding.net:liamhuang/ElegantLaTeX.git
+	branch = master
