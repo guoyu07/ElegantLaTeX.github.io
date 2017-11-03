@@ -3,8 +3,8 @@ nodonate: false
 comments: true
 mathjax: false
 date: 2017-10-31 16:03:20
-categories: DISC
-tags: DISC
+categories: MISC
+tags: MISC
 ---
 
 你好，ElegantLaTeX 团队！
